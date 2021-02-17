@@ -1,0 +1,38 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+/* Variables */
+:root {
+  --white: #fff;
+  --grey-01: #707070;
+  --grey-02: #888;
+  --grey-03: #00000029;
+}
+
+/* General Styles */
+
+/* Typography */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Mobile Styles */
+.header {
+  padding-top: 4.125rem;
+  background-color: var(--grey-01);
+}
+
+.header__welcome {
+  padding: 0 2.813rem 3.5rem 1rem;
+}
+
+.header__title {
+}
+
+.header__title-01 {
+}
